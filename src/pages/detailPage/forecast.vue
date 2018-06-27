@@ -20,14 +20,14 @@
         <div v-if="isShow" key="hellow">hellow world</div>
         <div v-else key="bye">Byeworld</div>
     </transition> -->
-    <!-- <transition name="fade">
+    <transition name="fade">
         <component :is="type"></component>
-    </transition> -->
-    <!-- <button @click="handleClick">toggle</button> -->
-    <transition-group name="fade">
+    </transition>
+    <button @click="handleClick">toggle</button>
+    <!-- <transition-group name="fade">
         <div v-for="item in itemList" :key="item.id">{{item.name}}</div>
     </transition-group>
-    <button @click="handleListClick">toggle</button>
+    <button @click="handleListClick">toggle</button> -->
   </div>
 </template>
 
